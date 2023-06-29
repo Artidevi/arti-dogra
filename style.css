@@ -1,0 +1,77 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.grid-container {
+  display: grid;
+  height:100%
+
+;width: 100%;text-align: center; 
+}
+.grid-container{
+  display: inline-grid;
+  height: 500px;
+  width: 100%;
+}
+
+#tex1{background-color:rgb(102, 163, 204) ;color:rgb(196, 26, 26) ;
+text-decoration: solid;}
+#tex2{ color: brown;text-decoration-color: none;}
+#tex3{color: brown;text-decoration-color: brown;}
+#tex4{color: brown;text-decoration-color: brown;}
+#tex5{color: brown;text-decoration-color: brown;}
+#tex6{color: brown;text-decoration-color: brown;}
+
+
+body{
+  background-repeat: no-repeat;background-size: cover;height:400px ;}
+  @media(max-width:900px){.img1{height:200px ;width:200px;margin-top:-500px ;padding-top:100px ;margin-top:100px ;}}
+  @media(max-width:700px){.img1{height:500px;width:500px; ;}}
+
+  .head{
+    font-size:20px ;font-style: italic;text-decoration: none;
+  }
+
+.product{margin-top:200px ;position: absolute;margin-left:100px ;font-size: 20px;font-weight: bold;text-decoration: none;
+color: sienna;}
+@media(max-width:600px){.head{font-size:5px ;}}
+@media(max-width:900px){.head{font-size:5px ;}}
+.grid-container {
+  display: grid;
+}
+.grid-container {
+  display: inline-grid;
+}
+.arti{
+  height: 100px;
+}
+.komal{height: 100px;}
+.dogra{height: 100px;}
+
+#stitching{margin-left:800px ;}
+
+.bharti{
+  text-align: center;text-decoration:none;color: brown;
+font-weight:bold ; font-size:30px;}
+
+.pooja{border-radius: 20PX solid BLACK;height:400px;width:100%;background-color: black;}
+#kartik{color: blue;}
+.card-img-top{text-align: center;}
+.card1{background-color: brown;}
+.card-img-top{
+  text-align: center;
+}
+.mukesh{
+  text-align: center;margin-top:10px ;
+}
+#why{
+ color: brown; 
+}
+
+
+.col :hover{
+  color: aliceblue;
+}
+  :hover .ho{color:white;}
+
